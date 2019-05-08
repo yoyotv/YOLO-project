@@ -26,8 +26,7 @@ for i in range(1,650+1):
     y1 =  float(tem[1][:-1])
     x2 =  float(tem[2][1:])
     y2 =  float(tem[3][:-1])
-    class_label = int(tem[4][0])
-
+    class_label = int(tem[4])
 
     x = ((x1 + x2)/2.0)/current_img_w
     y = ((y1 + y2)/2.0)/current_img_h
