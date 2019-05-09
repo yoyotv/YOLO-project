@@ -47,14 +47,17 @@ Average loss : 0.255645
 1. yolov3 detect
 
 ```
-./darknet detector test /home/dl-linux/darknet/cfg/obj/obj.data /home/dl-linux/darknet/cfg/obj/yolov3_deploy.cfg /home/dl-linux/darknet/backup/yolov3.backup /home/dl-linux/darknet/data/NWPU_VHR-10/307.jpg
+./darknet detector test /home/dl-linux/darknet/cfg/obj/obj.data /home/dl-linux/darknet/cfg/obj/yolov3_deploy.cfg /home/dl-linux/darknet/backup/yolov3.backup /home/dl-linux/darknet/data/NWPU_VHR-10/515.jpg
 ```
+<img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/small_object_detection/figures/yolov3.jpg" >
+
 
 2. yolov3-tiny detect
 ```
-./darknet detector test /home/dl-linux/darknet/cfg/obj/obj.data /home/dl-linux/darknet/cfg/obj/yolov3-tiny_deploy.cfg /home/dl-linux/darknet/backup/yolov3-tiny.backup /home/dl-linux/darknet/data/NWPU_VHR-10/201.jpg -thresh 0.001
+./darknet detector test /home/dl-linux/darknet/cfg/obj/obj.data /home/dl-linux/darknet/cfg/obj/yolov3-tiny_deploy.cfg /home/dl-linux/darknet/backup/yolov3-tiny.backup /home/dl-linux/darknet/data/NWPU_VHR-10/504.jpg
 
 ```
+<img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/small_object_detection/figures/yolov3-tiny.jpg" >
 
 
 ## Notice
