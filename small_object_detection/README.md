@@ -47,4 +47,8 @@ make
 ```
 
 
+## Notice
 
+1. The detect result only show the objection which confidence is higher than 0.25, set the threshold if you wanna see all detections
+
+e.g. ```./darknet detector test /home/dl-linux/darknet/cfg/obj/obj.data /home/dl-linux/darknet/cfg/obj/yolov3-tiny_deploy.cfg /home/dl-linux/darknet/backup/yolov3-tiny.backup /home/dl-linux/darknet/data/NWPU_VHR-10/201.jpg -thresh 0.001```
