@@ -22,11 +22,11 @@ make
 
 500 pictures for training, 150 for testing.
 
-yolov3
+### yolov3
 Iteration : 14651
 Average loss : 0.223733
 
-yolov3-tiny
+### yolov3-tiny
 Iteration : 60356
 Average loss : 0.255645
 
