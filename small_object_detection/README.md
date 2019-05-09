@@ -22,7 +22,7 @@ make
 
 * It is able to start training from imagenet + coco + voc pretrained weight
 
-500 pictures for training, 150 for testing.
+NWPU VHR-10 500 pictures for training, 150 for testing.
 
 ### yolov3
 Iteration : 14651
