@@ -20,6 +20,8 @@ make
 
 ## Train
 
+* It is able to start training from imagenet + coco + voc pretrained weight
+
 500 pictures for training, 150 for testing.
 
 ### yolov3
