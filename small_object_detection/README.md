@@ -59,4 +59,8 @@ https://github.com/pjreddie/darknet/issues/1115#issuecomment-420603848
 
 ## Evaluate the performance
 
+```
+./darknet detector valid /home/dl-linux/darknet/cfg/obj/obj_tem.data /home/dl-linux/darknet/cfg/obj/yolov3-tiny_deploy.cfg backup/yolov3-tiny.backup
+```
+Then you are able to find VOC type result under darknet/results.
 
