@@ -22,8 +22,6 @@ make
 
 1. Train yolov3 with a pre-train imagenet darknet53 weight
 
-Run
-
 ```
 ./darknet detector train /home/dl-linux/darknet/cfg/obj/obj.data  /home/dl-linux/darknet/cfg/obj/yolov3.cfg /home/dl-linux/darknet/cfg/obj/darknet53.conv.74
 ```
