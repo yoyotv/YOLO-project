@@ -20,8 +20,33 @@ make
 
 ## Train
 
-1. Run
+1. Train yolov3 with a pre-train imagenet darknet53 weight
+
+Run
+
+```
+./darknet detector train /home/dl-linux/darknet/cfg/obj/obj.data  /home/dl-linux/darknet/cfg/obj/yolov3.cfg /home/dl-linux/darknet/cfg/obj/darknet53.conv.74
+```
+
+2. Train yolov3-tiny with a pre-train imagenet yolov3-tiny weight
+
+```
+./darknet detector train /home/dl-linux/darknet/cfg/obj/obj.data  /home/dl-linux/darknet/cfg/obj/yolov3-tiny.cfg /home/dl-linux/darknet/cfg/obj/yolov3-tiny.conv.15
+```
+
+## Detect
+
+1. yolov3 detect
+
+```
+./darknet detector test /home/dl-linux/darknet/cfg/obj/obj.data /home/dl-linux/darknet/cfg/obj/yolov3_deploy.cfg /home/dl-linux/darknet/backup/yolov3.backup /home/dl-linux/darknet/data/NWPU_VHR-10/307.jpg
+```
+
+2. yolov3-tiny detect
+```
+./darknet detector test /home/dl-linux/darknet/cfg/obj/obj.data /home/dl-linux/darknet/cfg/obj/yolov3-tiny_deploy.cfg /home/dl-linux/darknet/backup/yolov3-tiny.backup /home/dl-linux/darknet/data/NWPU_VHR-10/201.jpg -thresh 0.001
 
 ```
 
-```
+
+
