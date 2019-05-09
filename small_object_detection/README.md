@@ -30,13 +30,13 @@ Average loss : 0.223733
 Iteration : 60356
 Average loss : 0.255645
 
-1. Train yolov3 with a pre-train imagenet darknet53 weight
+### Train yolov3 with a pre-train imagenet darknet53 weight
 
 ```
 ./darknet detector train /home/dl-linux/darknet/cfg/obj/obj.data  /home/dl-linux/darknet/cfg/obj/yolov3.cfg /home/dl-linux/darknet/cfg/obj/darknet53.conv.74
 ```
 
-2. Train yolov3-tiny with a pre-train imagenet yolov3-tiny weight
+### Train yolov3-tiny with a pre-train imagenet yolov3-tiny weight
 
 ```
 ./darknet detector train /home/dl-linux/darknet/cfg/obj/obj.data  /home/dl-linux/darknet/cfg/obj/yolov3-tiny.cfg /home/dl-linux/darknet/cfg/obj/yolov3-tiny.conv.15
