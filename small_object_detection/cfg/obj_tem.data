@@ -1,0 +1,7 @@
+classes= 10
+#train  = /home/dl-linux/darknet/cfg/obj/train_file_list.txt
+valid  = /home/dl-linux/darknet/cfg/obj/val_file_list.txt
+names = /home/dl-linux/darknet/cfg/obj/obj.names
+backup = /home/dl-linux/darknet/backup
+#eval=coco
+
