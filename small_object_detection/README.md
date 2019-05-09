@@ -53,6 +53,10 @@ make
 
  ```./darknet detector test /home/dl-linux/darknet/cfg/obj/obj.data /home/dl-linux/darknet/cfg/obj/yolov3-tiny_deploy.cfg /home/dl-linux/darknet/backup/yolov3-tiny.backup /home/dl-linux/darknet/data/NWPU_VHR-10/201.jpg -thresh 0.001```
  
- ## Extract pre-trained weight from yolo weight
+## Extract pre-trained weight from yolo weight
  
 https://github.com/pjreddie/darknet/issues/1115#issuecomment-420603848
+
+## Evaluate the performance
+
+
