@@ -70,6 +70,10 @@ sh run.sh
 
 4. The final price will be printed on the command window and saved with the prediction in a txt file and saved under records with a format Year_Month_Date_Hour:Minute:Second.txt.
 
+5. The result shouls loo like this
+
+   <img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/supermarket_checkout_system/demo.png
+" >
 
 
 
