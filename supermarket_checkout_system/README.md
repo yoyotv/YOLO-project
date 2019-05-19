@@ -25,6 +25,26 @@ make
 |7500| 0.18|
 |8000| 0.16 |
 
+
+## Activate the system
+
+Right now we are under supermarknet folder
+
+```
+sh run.sh
+```
+1. The system will read the image in the test_image, you may change the ipout image in "run.sh" line 4.
+
+2. Darknet engine will apply YOLOv3 to predict the locationa and the class of the input image, then save the result in "current record" folder which named "predictions.txt"
+
+3. System will use "calculate.py" to read the predictions and calculate the total price of image. (You may revise the price list in "calculate.py")
+
+4. The final price will be printed on the command window and saved with the prediction in a txt file and saved under records with a format Year_Month_Date_Hour:Minute:Second.txt.
+
+5. The result shouls loo like this
+
+   <img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/supermarket_checkout_system/demo.png" >
+
 ## Training 
 
 Go to darknet folder
@@ -56,25 +76,5 @@ Go to darknet folder
 ```
 
 8. The weights after training will place under darknet/backup.
-
-## Activate the system
-
-Right now we are under supermarknet folder
-
-```
-sh run.sh
-```
-1. The system will read the image in the test_image, you may change the ipout image in "run.sh" line 4.
-
-2. Darknet engine will apply YOLOv3 to predict the locationa and the class of the input image, then save the result in "current record" folder which named "predictions.txt"
-
-3. System will use "calculate.py" to read the predictions and calculate the total price of image. (You may revise the price list in "calculate.py")
-
-4. The final price will be printed on the command window and saved with the prediction in a txt file and saved under records with a format Year_Month_Date_Hour:Minute:Second.txt.
-
-5. The result shouls loo like this
-
-   <img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/supermarket_checkout_system/demo.png" >
-
 
 
