@@ -12,7 +12,16 @@ make
 
 2. Put the cfg/supermarket folder files  under darknet/cfg
 
-3. Put the backup/supermarket/weights under backup
+3. Put the [Pretrain weights](https://drive.google.com/open?id=1vOuW_z4SHUWJDOcIcXVpYHogKqh7j7ou) under darknet/backup/supermarket/
+
+### Pre-train model
+| Iteration | Loss |
+|:-:|:-:|
+|0| >300 |
+|2000| 0.5 |
+|2500 | 0.45 |
+|7500| 0.18|
+|8000| 0.16 |
 
 ## Training 
 
