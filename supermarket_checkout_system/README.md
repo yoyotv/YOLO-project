@@ -35,7 +35,7 @@ Go to darknet folder
 4. Run
 
 ```
-./darknet detector train /home/dl-linux/darknet/cfg/new/obj.data /home/dl-linux/darknet/cfg/new/yolov3-tiny.cfg /home/dl-linux/darknet/cfg/new/yolov3-tiny.conv.15
+./darknet detector train /home/dl-linux/darknet/cfg/supermarket/obj.data /home/dl-linux/darknet/cfg/supermarket/yolov3-tiny.cfg /home/dl-linux/darknet/cfg/supermarket/yolov3-tiny.conv.15
 ```
 
 ## Activate the system
