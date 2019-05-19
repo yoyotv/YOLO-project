@@ -72,8 +72,7 @@ sh run.sh
 
 5. The result shouls loo like this
 
-   <img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/supermarket_checkout_system/demo.png
-" >
+   <img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/supermarket_checkout_system/demo.png" >
 
 
 
