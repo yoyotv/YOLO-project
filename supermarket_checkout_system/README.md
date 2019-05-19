@@ -38,6 +38,8 @@ Go to darknet folder
 ./darknet detector train /home/dl-linux/darknet/cfg/supermarket/obj.data /home/dl-linux/darknet/cfg/supermarket/yolov3-tiny.cfg /home/dl-linux/darknet/cfg/supermarket/yolov3-tiny.conv.15
 ```
 
+5. The weights after training will place under darknet/backup.
+
 ## Activate the system
 
 Right now we are under supermarknet folder
