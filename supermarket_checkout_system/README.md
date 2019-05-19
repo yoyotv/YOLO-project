@@ -16,13 +16,13 @@ make
 
 4. Use `pycocoDemo.py` to convert original coco format label into darknet format label 
 
-    4.1 Go to https://github.com/cocodataset/cocoapi.git and install the coco api
+    4.1. Go to https://github.com/cocodataset/cocoapi.git and install the coco api
   
-    4.2 Put the training image under coco/images
+    4.2. Put the training image under coco/images
   
-    4.3 Put `pycocoDemo.py` under PythonAPI and run `python pycocoDemo.py`
+    4.3. Put `pycocoDemo.py` under PythonAPI and run `python pycocoDemo.py`
   
-    4.4 The darknet format label will be generated under coco/images
+    4.4. The darknet format label will be generated under coco/images
 
 5. Create an folder named D2S under /darknet/data/
 
