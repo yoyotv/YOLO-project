@@ -16,3 +16,5 @@ https://drive.google.com/open?id=1OhrHuUIW5GRC0cjb-DCLwMRSa6QxtFGl
 ## Supermarket checkout system
 
 ### Training dataset
+
+https://www.mvtec.com/company/research/datasets/mvtec-d2s/
