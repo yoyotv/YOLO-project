@@ -49,7 +49,7 @@ sh run.sh
 
 3. System will use "calculate.py" to read the predictions and calculate the total price of image. (You may revise the price list in "calculate.py")
 
-4. The final price will be printed on the command window and saved with the prediction in a txt file and saved under records with a format Year/Month/Date_Hour_Nimute_Second.txt.
+4. The final price will be printed on the command window and saved with the prediction in a txt file and saved under records with a format Year_Month_Date_Hour_Nimute_Second.txt.
 
 
 
