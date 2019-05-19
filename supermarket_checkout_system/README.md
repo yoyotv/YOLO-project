@@ -32,13 +32,19 @@ Go to darknet folder
 
 3. Copy all files (images and label.txt) to coco/images/D2S
 
-4. Run
+4. Copy all darknet format labels to a new folder named "tem" under coco
+
+5. Use "gen_list" to generate training list, run ``` python gen_list.py```.
+
+6. There will be a train_file_list.txt under darknet/cfg/supermarket/.
+
+7. Run
 
 ```
 ./darknet detector train /home/dl-linux/darknet/cfg/supermarket/obj.data /home/dl-linux/darknet/cfg/supermarket/yolov3-tiny.cfg /home/dl-linux/darknet/cfg/supermarket/yolov3-tiny.conv.15
 ```
 
-5. The weights after training will place under darknet/backup.
+8. The weights after training will place under darknet/backup.
 
 ## Activate the system
 
