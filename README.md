@@ -12,3 +12,7 @@ NWPU VHR-10, HR-RS and SmallObjectDataset are labelled, the rest are not.
 
 ### Weights
 https://drive.google.com/open?id=1OhrHuUIW5GRC0cjb-DCLwMRSa6QxtFGl
+
+## Supermarket checkout system
+
+### Training dataset
