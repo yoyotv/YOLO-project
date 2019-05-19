@@ -2,7 +2,7 @@
 YOLO projects
 
 
-## Small object detection 
+## I Small object detection 
 
 ### Training dataset
 
@@ -13,7 +13,7 @@ NWPU VHR-10, HR-RS and SmallObjectDataset are labelled, the rest are not.
 ### Weights
 https://drive.google.com/open?id=1OhrHuUIW5GRC0cjb-DCLwMRSa6QxtFGl
 
-## Supermarket checkout system
+## II Supermarket checkout system
 
 ### Training dataset
 
