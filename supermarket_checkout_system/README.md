@@ -1,5 +1,6 @@
 # Supermarket checkout system
 
+We use [D2S](http://openaccess.thecvf.com/content_ECCV_2018/papers/Patrick_Follmann_D2S_Densely_Segmented_ECCV_2018_paper.pdf) to implement this project.
 
 ## Get started
 
