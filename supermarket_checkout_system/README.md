@@ -10,9 +10,11 @@ cd darknet
 make
 ```
 
-2. Put the cfg/supermarket folder files  under darknet/cfg
+2. Replace the image.c under darknet/src, the new image.c will help us generate a txt file containing the predict result. We need this txt file when we are calculating the total price. 
 
-3. Put the [Pretrain weights](https://drive.google.com/open?id=1vOuW_z4SHUWJDOcIcXVpYHogKqh7j7ou) under darknet/backup/supermarket/
+3. Put the cfg/supermarket folder files  under darknet/cfg
+
+4. Put the [Pretrain weights](https://drive.google.com/open?id=1vOuW_z4SHUWJDOcIcXVpYHogKqh7j7ou) under darknet/backup/supermarket/
 
 ### Pre-train model
 | Iteration | Loss |
