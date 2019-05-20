@@ -1,6 +1,6 @@
 # Supermarket checkout system
 
-This project is implement on Raspberry Pi.
+This project is implemented on Raspberry Pi.
 
 We use [D2S](http://openaccess.thecvf.com/content_ECCV_2018/papers/Patrick_Follmann_D2S_Densely_Segmented_ECCV_2018_paper.pdf)  dataset to implement this project.
 
