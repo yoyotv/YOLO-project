@@ -13,6 +13,10 @@ NWPU VHR-10, HR-RS and SmallObjectDataset are labelled, the rest are not.
 ### Weights
 https://drive.google.com/open?id=1OhrHuUIW5GRC0cjb-DCLwMRSa6QxtFGl
 
+### Result
+
+<img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/small_object_detection/figures/yolov3.jpg" >
+
 ## II. Supermarket checkout system
 
 ### Training dataset
