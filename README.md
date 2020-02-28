@@ -22,3 +22,6 @@ https://drive.google.com/open?id=1OhrHuUIW5GRC0cjb-DCLwMRSa6QxtFGl
 ### Training dataset
 
 https://www.mvtec.com/company/research/datasets/mvtec-d2s/
+
+### Result
+<img src="https://raw.githubusercontent.com/yoyotv/YOLO-project/master/supermarket_checkout_system/demo.png" >
